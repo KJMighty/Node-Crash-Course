@@ -1,5 +1,9 @@
-const Person = require('./person');
+const Logger = require('./logger');
 
-const person1 = new Person('Kai', 22);
+const logger = new Logger();
 
-person1.greeting();
+logger.on('message', data => {
+    console.log('Called listener in', data);
+});
+
+logger.log('Hello World!');
