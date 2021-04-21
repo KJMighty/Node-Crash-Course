@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KJMighty/Node-Crash-Course/issues"
   },
-  "homepage": "https://github.com/KJMighty/Node-Crash-Course#readme"
+  "homepage": "https://github.com/KJMighty/Node-Crash-Course#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
